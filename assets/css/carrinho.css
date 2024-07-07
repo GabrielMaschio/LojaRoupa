@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    background-color: #F3F3F3;
+}
+
+section {
+    padding-top: 90px;
+    padding-left: 473px;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color: #D9D9D9;
+}
+
+nav button {
+    position: absolute;
+    left: 40px;
+    display: flex;
+    font-size: 20px;
+    color: black;
+    background: #F3F3F3;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+        &:hover {
+            color: #3d3d3d;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 1);
+        }
+}
+
+.container-alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 973px;
+    height: 54px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 1rem;
+}
+
+.container-alert span:first-child {
+    color: #006611;
+}
+
+.container-alert span:last-child {
+    text-decoration: underline;
+        &:hover {
+            cursor: pointer;
+        }
+}
+
+.container-carrinho {
+    display: flex;
+    gap: 30px;
+}
+
+.container-resumo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 16px;
+    padding: 15px;
+    max-height: 400px;
+}
+
+.container-resumo h1 {
+    margin-bottom: 30px;
+}
+
+.body-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    color: #3F3F46;
+    border-top: 1px solid #3F3F46;
+}
+
+.body-info span {
+    color: #006611;
+}
+
+.body-info:last-of-type {
+    border-bottom: 1px solid #3F3F46;
+}
+
+.container-resumo button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 200px;
+    border: none;
+    background-color: black;
+    transition: all .2s ease;
+        &:hover {
+            cursor: pointer;
+            background-color: #3d3d3d;
+        }
+}
+
+.table {
+    max-width: 973px;
+    border: none;
+}
+
+.table>:not(caption)>*>* {
+    width: 100%;
+    max-width: 973px;
+    padding: 15px 15px;
+}
+
+.infoData {
+    width: 973px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 16px;
+    text-align: left;
+}
+
+.produtoDetails {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 16px;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate; /* Para permitir espaçamento entre células */
+    border-spacing: 0 30px; /* Define o espaçamento vertical entre as linhas */
+}
+
+td img {
+    background-color: #D9D9D9;
+    border-radius: .5rem;
+    margin-right: 15px;
+}
+
+td div {
+    display: flex;
+    align-items: center;
+}
+
+td div div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+td span {
+    color: #3d3d3d;
+}
+
+td button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    height: 28px;
+    width: 28px;
+    transition: all .3s ease;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    }
+}
+
+.valor-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.valor-unit span {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.valor-total {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.valor-total span {
+    font-size: 12px;
+    color: #006611;
+}
+
+.row {
+    width: 973px;
+}
