@@ -225,7 +225,7 @@ const createProduto = async (nomeField, quantidadeField, valorField, descontoFie
         formData.append("id_categoria", idCategoriaField);
         formData.append("id_tipo", idTipoField);
         formData.append("pp", imagemField);
-        console.log(nomeField, quantidadeField, valorField, descontoField, idCategoriaField, idTipoField, imagemField)
+        // console.log(nomeField, quantidadeField, valorField, descontoField, idCategoriaField, idTipoField, imagemField)
 
         const dados = await fetch("../controller/crud_produto/gravar_produto.php", {
             method: "POST", // Enviar os dados do JavaScript para o PHP através do método POST
@@ -271,8 +271,6 @@ const updateProduto = async (id, nomeField, quantidadeField, valorField, descont
     } else {
         formEdit.append("pp", "");
     }
-
-
 
     try {
         const dados = await fetch("../controller/crud_produto/update_produto.php", {

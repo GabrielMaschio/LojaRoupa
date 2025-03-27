@@ -1,0 +1,62 @@
+[
+    {
+        "id": "18",
+        "nome_produto": "Camiseta NikeCourt Heritage Masculina",
+        "quantidade": "8",
+        "valor": "284.99",
+        "desconto": "5",
+        "nome_categoria": "Camiseta",
+        "id_categoria": "1",
+        "nome_tipo": "Treino & Academia",
+        "id_tipo": "3",
+        "pp": "Camiseta NikeCourt Heritage Masculina66594efb59bc03.43363887.png"
+    },
+    {
+        "id": "19",
+        "nome_produto": "Camiseta Nike Sportswear Masculina",
+        "quantidade": "9",
+        "valor": "189.99",
+        "desconto": "17",
+        "nome_categoria": "Camiseta",
+        "id_categoria": "1",
+        "nome_tipo": "Casual",
+        "id_tipo": "1",
+        "pp": "Camiseta Nike Sportswear Masculina665956a895f091.91948205.png"
+    },
+    {
+        "id": "20",
+        "nome_produto": "Camiseta Nike Vintage Masculina",
+        "quantidade": "5",
+        "valor": "218.49",
+        "desconto": "5",
+        "nome_categoria": "Camiseta",
+        "id_categoria": "1",
+        "nome_tipo": "Treino & Academia",
+        "id_tipo": "3",
+        "pp": "Camiseta Nike Vintage Masculina66595d40dd69b2.16682644.png"
+    },
+    {
+        "id": "21",
+        "nome_produto": "Camiseta Jordan Masculina",
+        "quantidade": "8",
+        "valor": "199.49",
+        "desconto": "40",
+        "nome_categoria": "Camiseta",
+        "id_categoria": "1",
+        "nome_tipo": "Casual",
+        "id_tipo": "1",
+        "pp": "Camiseta Jordan Masculina66595d68372063.43369823.png"
+    },
+    {
+        "id": "22",
+        "nome_produto": "Camiseta Nike Dri-FIT Masculina",
+        "quantidade": "16",
+        "valor": "208.99",
+        "desconto": "9",
+        "nome_categoria": "Camiseta",
+        "id_categoria": "1",
+        "nome_tipo": "Treino & Academia",
+        "id_tipo": "3",
+        "pp": "Camiseta Nike Dri-FIT Masculina66595d986bc6f1.70711274.png"
+    }
+]

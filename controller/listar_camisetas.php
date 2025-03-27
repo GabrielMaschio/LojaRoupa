@@ -25,6 +25,15 @@
         }
     } 
 
+    $json_data = json_encode($produtos, JSON_PRETTY_PRINT);
+    $file_path = '../dados_carrinho.json';
+
+    // Salva o JSON no arquivo
+    if (file_put_contents($file_path, $json_data) === false) {
+        $retorna = ['status' => false, 'msg' => "Erro ao salvar os dados no arquivo JSON"];
+        echo json_encode($produtos);
+        exit();
+    }
     echo json_encode($produtos);
 
     $conn->close();
